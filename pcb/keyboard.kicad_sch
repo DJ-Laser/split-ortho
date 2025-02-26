@@ -3291,16 +3291,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 125.73) (xy 308.61 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "328e490b-6947-4f7b-a811-dbd3257d5b0a")
-	)
-	(wire
-		(pts
 			(xy 175.26 195.58) (xy 175.26 215.9)
 		)
 		(stroke
@@ -3411,16 +3401,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 118.11) (xy 308.61 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d2abd23-a244-412f-8ffe-d792a8fb6403")
-	)
-	(wire
-		(pts
 			(xy 269.24 256.54) (xy 269.24 276.86)
 		)
 		(stroke
@@ -3461,6 +3441,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 110.49) (xy 312.42 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426106c1-5e11-4018-a579-7a5de27f1dba")
+	)
+	(wire
+		(pts
 			(xy 299.72 215.9) (xy 299.72 236.22)
 		)
 		(stroke
@@ -3491,16 +3481,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 95.25) (xy 308.61 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "486f7389-66c4-4866-a5b7-5d3ada4c01d7")
-	)
-	(wire
-		(pts
 			(xy 140.97 228.6) (xy 149.86 228.6)
 		)
 		(stroke
@@ -3528,6 +3508,16 @@
 			(type default)
 		)
 		(uuid "4b2888b8-4f7a-46f3-bb16-31770b8a3cf0")
+	)
+	(wire
+		(pts
+			(xy 298.45 113.03) (xy 312.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c3a1641-7b98-4f6d-8de1-88f61a1462f1")
 	)
 	(wire
 		(pts
@@ -3701,6 +3691,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 120.65) (xy 312.42 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69d1b9d9-6024-443f-b987-178e5ca0f10a")
+	)
+	(wire
+		(pts
 			(xy 165.1 175.26) (xy 165.1 195.58)
 		)
 		(stroke
@@ -3848,16 +3848,6 @@
 			(type default)
 		)
 		(uuid "8db2608b-9805-4c28-924e-cd4c0bbcd0ab")
-	)
-	(wire
-		(pts
-			(xy 298.45 115.57) (xy 308.61 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "904b6444-300d-4e13-8f00-28bea1f07a09")
 	)
 	(wire
 		(pts
@@ -4441,7 +4431,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 95.25) (xy 308.61 113.03)
+			(xy 312.42 90.17) (xy 312.42 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4451,7 +4441,7 @@
 	)
 	(wire
 		(pts
-			(xy 308.61 125.73) (xy 308.61 120.65)
+			(xy 312.42 115.57) (xy 312.42 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4678,6 +4668,16 @@
 			(type default)
 		)
 		(uuid "fd8bbf27-9ac3-479f-916b-d39494e4a326")
+	)
+	(wire
+		(pts
+			(xy 312.42 90.17) (xy 298.45 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe3e966c-403f-4f18-8565-a9fbbf60064c")
 	)
 	(global_label "R COL0"
 		(shape input)
@@ -8554,7 +8554,7 @@
 	)
 	(symbol
 		(lib_id "ScottoKeebs:Placeholder_TRRS")
-		(at 317.5 123.19 0)
+		(at 321.31 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8563,7 +8563,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a286eff-4a24-40eb-8961-e31ed816c6a0")
 		(property "Reference" "U4"
-			(at 323.85 115.5699 0)
+			(at 327.66 110.4899 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8572,7 +8572,7 @@
 			)
 		)
 		(property "Value" "TRRS"
-			(at 323.85 118.1099 0)
+			(at 327.66 113.0299 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8581,7 +8581,7 @@
 			)
 		)
 		(property "Footprint" "ScottoKeebs_Components:TRRS_PJ-320A"
-			(at 321.31 123.19 0)
+			(at 325.12 118.11 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8590,7 +8590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 123.19 0)
+			(at 325.12 118.11 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -8599,7 +8599,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 317.5 123.19 0)
+			(at 321.31 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
